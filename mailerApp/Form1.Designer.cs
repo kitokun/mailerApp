@@ -38,9 +38,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(34, 45);
+            this.button1.Location = new System.Drawing.Point(30, 45);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 34);
+            this.button1.Size = new System.Drawing.Size(130, 34);
             this.button1.TabIndex = 0;
             this.button1.Text = "send";
             this.button1.UseVisualStyleBackColor = true;
@@ -48,42 +48,45 @@
             // 
             // title
             // 
-            this.title.Location = new System.Drawing.Point(34, 85);
+            this.title.Location = new System.Drawing.Point(30, 85);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(151, 22);
+            this.title.Size = new System.Drawing.Size(150, 22);
             this.title.TabIndex = 1;
             this.title.Text = "title";
             // 
             // contain
             // 
-            this.contain.Location = new System.Drawing.Point(34, 113);
+            this.contain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.contain.Location = new System.Drawing.Point(30, 120);
             this.contain.Multiline = true;
             this.contain.Name = "contain";
-            this.contain.Size = new System.Drawing.Size(754, 325);
+            this.contain.Size = new System.Drawing.Size(730, 320);
             this.contain.TabIndex = 2;
             this.contain.Text = "contain";
             // 
             // toAddress
             // 
-            this.toAddress.Location = new System.Drawing.Point(191, 85);
+            this.toAddress.Location = new System.Drawing.Point(190, 85);
             this.toAddress.Name = "toAddress";
-            this.toAddress.Size = new System.Drawing.Size(213, 22);
+            this.toAddress.Size = new System.Drawing.Size(200, 22);
             this.toAddress.TabIndex = 3;
             this.toAddress.Text = "to";
             // 
             // fromAddress
             // 
-            this.fromAddress.Location = new System.Drawing.Point(410, 85);
+            this.fromAddress.Location = new System.Drawing.Point(400, 85);
             this.fromAddress.Name = "fromAddress";
-            this.fromAddress.Size = new System.Drawing.Size(209, 22);
+            this.fromAddress.Size = new System.Drawing.Size(200, 22);
             this.fromAddress.TabIndex = 4;
             this.fromAddress.Text = "mine";
             // 
             // password
             // 
-            this.password.Location = new System.Drawing.Point(625, 85);
+            this.password.Location = new System.Drawing.Point(610, 85);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(163, 22);
+            this.password.Size = new System.Drawing.Size(150, 22);
             this.password.TabIndex = 5;
             this.password.Text = "password";
             // 
@@ -91,13 +94,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(782, 453);
             this.Controls.Add(this.password);
             this.Controls.Add(this.fromAddress);
             this.Controls.Add(this.toAddress);
             this.Controls.Add(this.contain);
             this.Controls.Add(this.title);
             this.Controls.Add(this.button1);
+            this.MinimumSize = new System.Drawing.Size(800, 500);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
